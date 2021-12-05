@@ -1,1 +1,32 @@
 /* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-family: 'Roboto';
+  color: #2d3a35;
+}
+.para {
+  font-family: 'Roboto';
+  color: #2d3a35;
+}
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  font-family: 'Roboto';
+  color: #ffffff;
+  background-color: #007bff;
+  width: 80px;
+  border-radius: 5px;
+  border-width: 0px;
+}
+.counterValue {
+  color: #c20a72;
+}
